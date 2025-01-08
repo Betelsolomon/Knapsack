@@ -18,4 +18,11 @@ def knapsack(values, weights, W):
 
     selected_items.reverse()
     return max_value, selected_items
+values = [60, 100, 120]
+weights = [10, 20, 30]
+W = 50
+
+max_value, selected_items = knapsack(values, weights, W)
+print("Maximum Value:", max_value)
+print("Selected Items:", selected_items)
   
